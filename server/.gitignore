@@ -1,0 +1,91 @@
+#########################
+# Environment Variables #
+#########################
+
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+#################
+# Dependencies  #
+#################
+
+node_modules/
+
+###################
+# Build Artifacts #
+###################
+
+dist/
+build/
+out/
+coverage/
+.cache/
+pm2.log
+
+#############
+# Logs      #
+#############
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+#################
+# Database Files #
+#################
+
+*.sqlite
+*.sqlite3
+*.db
+db-data/
+
+######################
+# Local Config Files #
+######################
+
+*.local
+*.dev
+*.backup
+*.bak
+
+###################
+# OS / Editor     #
+###################
+
+.DS_Store
+Thumbs.db
+
+.vscode/*
+!.vscode/extensions.json
+
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+##############
+# Misc       #
+##############
+
+# TypeScript
+*.tsbuildinfo
+
+# dotenv backups
+.env.bak
+.env.save
+
+# Redis dump
+dump.rdb
+
+# Mongo dump
+*.bson
+*.json
