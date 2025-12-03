@@ -21,7 +21,7 @@ await connectCloudinary()
 // Allow multiple origins
 const allowedOrigins = [
   'http://localhost:5173',
-  process.env.FRONTEND_URL
+  "https://full-stack-green-cart.vercel.app"
 ];
 
 app.use(cors({origin: allowedOrigins, credentials: true}));
